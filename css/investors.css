@@ -1,0 +1,107 @@
+*{
+    font-family:Helvetica,sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color:  rgb(30, 33, 211);
+    font-weight: bold;
+}
+
+p{
+    color: rgb(54, 58, 59);
+    font-size: medium;
+}
+
+h1, h2, h3{
+    color: rgb(45, 48, 54);
+}
+
+.mainframe{
+    padding: 0px 50px;
+    width: 66.67%;
+}
+
+.breaking{
+    height: 50px;
+    background-color: rgb(30, 33, 211);
+    margin: 0;
+    padding: 0;
+}
+
+.toptag{
+    background-color: rgb(30, 33, 211);
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0;
+    padding: 5px 55px;
+    position: relative;
+    top: 15px;
+    font-weight: bold ;
+}
+
+.investors{
+    color: rgb(30, 33, 211);
+    font-size:45px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    font-weight: bold ;
+    text-transform: uppercase;
+}
+
+a:visited.novisitedlink{
+    color: rgb(30, 33, 211);    
+}
+
+.menubar{
+    margin: auto;
+}
+
+#firstmenubutton{
+    padding-left: 50px;
+}
+
+.menubutton{
+    padding: 5px;
+    color: black;
+    display: inline;
+    font-size: 15px;
+    font-weight: bold ;
+    margin: auto;
+}
+
+.menubutton a{
+    color: black;
+}
+
+
+div.menubutton:hover{
+    background-color: grey;
+    color:  rgb(30, 33, 211);
+}
+.menubutton a:hover{
+    color: rgb(30, 33, 211);
+}
+
+.subtitle{
+    color: gray;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.author{
+    font-size: 11px;
+}
+
+.author a{
+    color: black;
+}
+
+.author a:hover{
+    color: rgb(30, 33, 211);
+}
