@@ -1,5 +1,5 @@
 *{
-    font-family:Helvetica,sans-serif;
+    font-family:Helvetica,serif;
 }
 
 
@@ -12,16 +12,25 @@ a{
 p{
     color: rgb(54, 58, 59);
     font-size: medium;
+    position: relative;
+    padding-top: 8px;
+    line-height: 26px;
 }
 
 h1, h2, h3{
     color: rgb(45, 48, 54);
 }
 
-.mainframe{
-    padding: 0px 50px;
-    width: 66.67%;
+h1{
+    font-size: 36px;
 }
+
+h2{
+    font-size: 22px;
+    padding-top: 8px;
+}
+
+
 
 .breaking{
     height: 50px;
@@ -33,7 +42,7 @@ h1, h2, h3{
 .toptag{
     background-color: rgb(30, 33, 211);
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
     margin: 0;
     padding: 5px 55px;
@@ -58,10 +67,28 @@ a:visited.novisitedlink{
 
 .menubar{
     margin: auto;
+    padding-bottom: 9px;
+    border-bottom: 2px solid lightgrey;
 }
 
 #firstmenubutton{
     padding-left: 50px;
+}
+
+#idb a{
+    color: blue;
+}
+
+#leaderboard a{
+    color: green;
+}
+
+#swingertrader a{
+    color: purple;
+}
+
+#marketsmith a{
+    color: orange;
 }
 
 .menubutton{
@@ -77,11 +104,11 @@ a:visited.novisitedlink{
     color: black;
 }
 
-
 div.menubutton:hover{
     background-color: grey;
     color:  rgb(30, 33, 211);
 }
+
 .menubutton a:hover{
     color: rgb(30, 33, 211);
 }
@@ -90,8 +117,36 @@ div.menubutton:hover{
     color: gray;
     font-size: 13px;
     text-transform: uppercase;
-    font-weight: bold;
-    
+    font-weight: bold; 
+}
+
+.mainframe{
+    display: inline;
+}
+
+.leftframe{
+    padding-left: 0px;
+    width: 58%;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+.rigthframe{
+    width: 32%;
+    padding-right: 20px; 
+    position: absolute;
+    top: 215px;
+    right: 30px;
+    box-sizing: border-box;
+}
+
+.licensing{
+    color: lightslategrey;
+    font-size: 11px;
+    position: relative;
+    left: 8px;
+    bottom: 8px;
 }
 
 .author{
@@ -105,3 +160,89 @@ div.menubutton:hover{
 .author a:hover{
     color: rgb(30, 33, 211);
 }
+
+.youmaylike{
+    list-style-type: none;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.youmaylike a{
+    font-size: 18px;
+    color:  rgb(30, 33, 211);
+}
+
+.todayspot{
+    color: gray;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.howis{
+    color: rgb(163, 5, 5);
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding: 0px 0px 6px;
+}
+
+.getleader{
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+    display: block;
+    padding: 6px 0px;
+}
+
+.freeinvesting{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+    display: block;
+    padding: 6px 0px;
+}
+
+.blacklink{
+    color: grey;
+    font-weight: normal ;
+    position: relative;
+    top: 1px;
+    display: block;
+    padding: 6px 0px;
+}
+
+.blacklink:hover{
+    color:  rgb(30, 33, 211);
+}
+
+.imglink img{
+    vertical-align: top;
+}
+
+.imglink div a{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.imglink a:hover{
+    color: rgb(30, 33, 211);
+}
+
+.imglink div{  
+    width: 250px;
+    display: inline-block;
+}
+
+.imglink{
+    display: inline-block;
+    padding: 7px 4px;
+    border-bottom: 1px solid lightgrey;
+}
+
