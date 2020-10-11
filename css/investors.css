@@ -1,5 +1,6 @@
 *{
     font-family:Helvetica,serif;
+    margin: 0px;
 }
 
 
@@ -11,41 +12,41 @@ a{
 
 p{
     color: rgb(54, 58, 59);
-    font-size: medium;
-    position: relative;
-    padding-top: 8px;
-    line-height: 26px;
+    font-size: 18px;
+    padding: 10px 0px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.4px;
 }
 
+
 h1, h2, h3{
-    color: rgb(45, 48, 54);
+    color: rgb(54, 58, 66);
 }
 
 h1{
     font-size: 36px;
+    font-weight: none;
+    letter-spacing: 0.2px;
+    word-spacing: 0.4px;
 }
 
 h2{
     font-size: 22px;
-    padding-top: 8px;
+    padding: 12px 0px;
 }
-
-
 
 .breaking{
     height: 50px;
-    background-color: rgb(30, 33, 211);
-    margin: 0;
-    padding: 0;
+    background-color: rgb(18, 21, 173);
 }
 
 .toptag{
-    background-color: rgb(30, 33, 211);
+    background-color: rgb(18, 21, 173);
     color: white;
     font-size: 15px;
     text-decoration: none;
-    margin: 0;
-    padding: 5px 55px;
+    padding: 10px 75px;
     position: relative;
     top: 15px;
     font-weight: bold ;
@@ -53,7 +54,7 @@ h2{
 
 .investors{
     color: rgb(30, 33, 211);
-    font-size:45px;
+    font-size:50px;
     text-align: center;
     margin: auto;
     padding: 20px 0;
@@ -67,8 +68,9 @@ a:visited.novisitedlink{
 
 .menubar{
     margin: auto;
-    padding-bottom: 9px;
-    border-bottom: 2px solid lightgrey;
+    padding-bottom: 12px;
+    border-bottom: 2px solid lightgray;
+    padding-left: 25px;
 }
 
 #firstmenubutton{
@@ -92,7 +94,7 @@ a:visited.novisitedlink{
 }
 
 .menubutton{
-    padding: 5px;
+    padding: 7px 5px;
     color: black;
     display: inline;
     font-size: 15px;
@@ -128,7 +130,7 @@ div.menubutton:hover{
     width: 58%;
     position: absolute;
     top: 200px;
-    left: 60px;
+    left: 75px;
 }
 
 .rigthframe{
@@ -138,6 +140,12 @@ div.menubutton:hover{
     top: 215px;
     right: 30px;
     box-sizing: border-box;
+}
+
+.socialmedia{
+    display: inline;
+    position: relative;
+    top: 35px;
 }
 
 .licensing{
@@ -150,6 +158,8 @@ div.menubutton:hover{
 
 .author{
     font-size: 11px;
+    position: relative;
+    top: 45px;
 }
 
 .author a{
@@ -160,17 +170,26 @@ div.menubutton:hover{
     color: rgb(30, 33, 211);
 }
 
-.youmaylike{
-    list-style-type: none;
-    line-height: 50px;
-    margin: 0;
-    padding: 0;
+.mainbody{
+    position: relative;
+    top: 42px;
+}
 
+.youmaylike{
+    position: relative;
+    top: 60px;
+}
+
+.youmaylike ul{
+    list-style-type: none;
+    line-height: 50px; 
+    padding: 10px 0px;  
 }
 
 .youmaylike a{
     font-size: 18px;
     color:  rgb(30, 33, 211);
+    
 }
 
 .todayspot{
@@ -184,7 +203,7 @@ div.menubutton:hover{
     font-weight: bold;
     font-size: 18px;
     display: block;
-    padding: 0px 0px 6px;
+    padding: 15px 0px 6px;
 }
 
 .getleader{
@@ -243,5 +262,81 @@ div.menubutton:hover{
     display: inline-block;
     padding: 7px 4px;
     border-bottom: 1px solid lightgrey;
+}
+
+.maintablediv{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tableclass{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    margin: 0px;
+    border: 1px solid lightgray ;
+}
+
+
+.tableclass th, .tableclass td{
+    padding: 10px;
+    margin: 5px;
+}
+
+.tableclass td{
+    font-size: 13px;
+}
+
+.tableclass th{
+    font-size: 19px;
+    text-emphasis: bold;
+    padding: 30px 20px;
+}
+
+tr:nth-child(odd){background-color: #f2f2f2;}
+
+tr:nth-child(8) td{
+    padding: 20px 10px;
+}
+
+.tableclass a{
+    color: rgb(54, 58, 59);
+    text-emphasis: none;
+}
+
+.tableclass a:hover{
+    color:  rgb(30, 33, 211);
+}
+
+.sidetable{
+    width: 350px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+
+.join{
+    padding: 25px 0px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    color: rgb(30, 33, 211);
+    text-emphasis: none;
+    font-size: 18px;
+}
+
+.smallframe{
+    width: 400px;
+    height: 450px;
+}
+
+.bigframe{
+    width: 800px;
+    height: 420px;
 }
 
