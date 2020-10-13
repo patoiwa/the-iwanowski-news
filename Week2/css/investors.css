@@ -1,0 +1,354 @@
+
+/* GENERAL STYLE *//* GENERAL STYLE *//* GENERAL STYLE */
+
+*{
+    font-family:Helvetica,serif;
+    margin: 0px;
+}
+
+
+a{
+    text-decoration: none;
+    color:  rgb(30, 33, 211);
+    font-weight: bold;
+}
+
+p{
+    color: rgb(54, 58, 59);
+    font-size: 18px;
+    padding: 10px 0px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.4px;
+}
+
+
+h1, h2, h3{
+    color: rgb(54, 58, 66);
+}
+
+h1{
+    font-size: 36px;
+    font-weight: none;
+    letter-spacing: 0.2px;
+    word-spacing: 0.4px;
+}
+
+h2{
+    font-size: 22px;
+    padding: 12px 0px;
+}
+
+/* HEADER */ /* HEADER *//* HEADER *//* HEADER *//* HEADER */
+
+.breaking{
+    height: 50px;
+    background-color: rgb(18, 21, 173);
+}
+
+.toptag{
+    background-color: rgb(18, 21, 173);
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 75px;
+    position: relative;
+    top: 15px;
+    font-weight: bold ;
+}
+
+.investors{
+    color: rgb(30, 33, 211);
+    font-size:50px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    font-weight: bold ;
+    text-transform: uppercase;
+}
+
+a:visited.novisitedlink{
+    color: rgb(30, 33, 211);    
+}
+
+/* MENU BAR */ /* MENU BAR */ /* MENU BAR */
+
+.menubar{
+    margin: auto;
+    padding-bottom: 12px;
+    border-bottom: 2px solid lightgray;
+    padding-left: 25px;
+}
+
+.menubutton{
+    padding: 7px 5px;
+    color: black;
+    display: inline;
+    font-size: 15px;
+    font-weight: bold ;
+    margin: auto;
+}
+
+.menubutton a{
+    color: black;
+}
+
+div.menubutton:hover{
+    background-color: grey;
+    color:  rgb(30, 33, 211);
+}
+
+.menubutton a:hover{
+    color: rgb(30, 33, 211);
+}
+.firstmenubutton{
+    padding-left: 50px;
+}
+
+.idb a{
+    color: blue;
+}
+
+.leaderboard a{
+    color: green;
+}
+
+.swingertrader a{
+    color: purple;
+}
+
+.marketsmith a{
+    color: orange;
+}
+
+/* FIRST COLUMN */  /* FIRST COLUMN */
+
+.leftframe{
+    width: 58%;
+    position: absolute;
+    top: 200px;
+    left: 75px;
+}
+
+.subtitle{
+    color: gray;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+.socialmedia{
+    display: inline;
+    position: relative;
+    top: 35px;
+}
+
+.socialmedia a:hover{
+    opacity: 0.5;
+}
+
+.licensing{
+    color: lightslategrey;
+    font-size: 11px;
+    position: relative;
+    left: 8px;
+    bottom: 8px;
+}
+
+.author{
+    font-size: 11px;
+    position: relative;
+    top: 45px;
+}
+
+.author a{
+    color: black;
+}
+
+.author a:hover{
+    color: rgb(30, 33, 211);
+}
+
+.mainbody{
+    position: relative;
+    top: 42px;
+}
+
+.maintablediv{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tableclass{        /* Only used once in one project, but perhaps it can be useful in another project, hence the class type */    
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    margin: 0px;
+    border: 1px solid lightgray ;
+}
+
+.tableclass th, .tableclass td{
+    padding: 10px;
+    margin: 5px;
+}
+
+.tableclass td{
+    font-size: 13px;
+}
+
+.tableclass th{
+    font-size: 19px;
+    text-emphasis: bold;
+    padding: 30px 20px;
+}
+
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(8) td{
+    padding: 20px 10px;
+}
+
+.tableclass a{
+    color: rgb(54, 58, 59);
+    text-emphasis: none;
+}
+
+.tableclass a:hover{
+    color:  rgb(30, 33, 211);
+}
+
+.sidetable{
+    width: 350px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+
+#join{
+    padding: 25px 0px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    color: rgb(30, 33, 211);
+    text-emphasis: none;
+    font-size: 18px;
+}
+
+#smallframe{
+    width: 400px;
+    height: 450px;
+}
+
+#bigframe{
+    width: 800px;
+    height: 420px;
+}
+            
+.youmaylike{
+    position: relative;
+    top: 60px;
+}
+
+.youmaylike ul{
+    list-style-type: none;
+    line-height: 50px; 
+    padding: 10px 0px;  
+}
+
+.youmaylike a{
+    font-size: 18px;
+    color:  rgb(30, 33, 211);
+    
+}
+
+/* RIGTH COLUMN */
+
+.rigthframe{
+    width: 32%;
+    padding-right: 20px; 
+    position: absolute;
+    top: 215px;
+    right: 30px;
+    box-sizing: border-box;
+}
+
+.todayspot{
+    color: gray;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.howis{
+    color: rgb(163, 5, 5);
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding: 15px 0px 6px;
+}
+
+.getleader{
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+    display: block;
+    padding: 6px 0px;
+}
+
+.freeinvesting{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+    display: block;
+    padding: 6px 0px;
+}
+
+.blacklink{
+    color: grey;
+    font-weight: normal ;
+    position: relative;
+    top: 1px;
+    display: block;
+    padding: 6px 0px;
+}
+
+.blacklink:hover{
+    color:  rgb(30, 33, 211);
+}
+
+.imglink img{
+    vertical-align: top;
+}
+
+.imglink div a{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.imglink a:hover{
+    color: rgb(30, 33, 211);
+}
+
+.imglink div{  
+    width: 250px;
+    display: inline-block;
+}
+
+.imglink{
+    display: inline-block;
+    padding: 7px 4px;
+    border-bottom: 1px solid lightgrey;
+}
+
+
